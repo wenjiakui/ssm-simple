@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wjk.web.ssm.dao.RolePermissionDao">
+    <resultMap id="rolePermissionMap" type="com.wjk.web.ssm.model.RolePermisson">
+        <id property="id" column="id" ></id>
+        <result property="roleId" column="role_id"></result>
+        <result property="permission" column="permission"></result>
+        <result property="status" column="status"></result>
+    </resultMap>
+
+
+</mapper>
